@@ -1,6 +1,6 @@
 # cisco
 ## Базовое ознакомление
 <br>
-[Перейти к Заданию 1](#title1)
+## <a id="title1">Задание 1: ICMP симуляцияя</a>
+![Построить схему сети]<img width="841" height="669" alt="image" src="https://github.com/user-attachments/assets/04bbf351-8a71-4df4-9bc1-6949383814fa" />
 
-## <a id="title1">ICMP симуляцияя</a>
