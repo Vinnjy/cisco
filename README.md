@@ -3,7 +3,7 @@
 
 [Терминология](#title0)
 
-[Практическое задание 1: ICMP симуляция](https://github.com/Vinnjy/cisco/main/Практическая_работа_1.md)
+[Практическое задание 1: ICMP симуляция](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%201.md)
 
 [Практическое задание 2: DHCP, DNS, WEB server](https://github.com/Vinnjy/cisco/main/Практическая_работа_2.md)
 
