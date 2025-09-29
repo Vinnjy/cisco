@@ -21,7 +21,7 @@
 
 ## <a id="title0">Терминология</a>
 
-### Для начала пройдёся по ***панели устройств*** в cisco packet tracer. Поймём из чего состоит сеть.
+### Для начала пройдёся по ***панели устройств*** в cisco packet tracer. Посмотрим из чего может состоять сеть.
 
 <img width="162" height="91" alt="image" src="https://github.com/user-attachments/assets/a7ca9f67-61af-45a7-99b7-4a47040cb1f0" />  Рис.1
 
