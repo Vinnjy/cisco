@@ -134,7 +134,7 @@
 
 <img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/7717a7ec-7e5f-446b-b7e9-2500201ea50b" />
 
-> Как и должно быть по условию.
+> Так и должно быть по условию.
 
 
 
