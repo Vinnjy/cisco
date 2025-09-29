@@ -180,4 +180,10 @@
 
 <img width="1292" height="664" alt="image" src="https://github.com/user-attachments/assets/c9682058-e077-4a40-ba9f-5d567d89170d" />
 
-> Таких эхо-запросов и ответоа будет ещё 3. На этом симуляцию можно завершить.
+> Таких эхо-запросов и ответоа будет ещё 3.
+
+> Обратите внимание на ARP таблицу до команды ping и после.
+
+ <img width="639" height="772" alt="image" src="https://github.com/user-attachments/assets/355f1d7e-1e3e-4b4e-98a8-0a92d1cfd679" />
+
+На этом симуляцию можно завершить.
