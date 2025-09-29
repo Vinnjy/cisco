@@ -7,7 +7,7 @@
 
 [Практическое задание 3. Статическая маршрутизация](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%203.md)
 
-[Практическое задание 3. Статическая маршрутизация (последовательность маршрутизаторов)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%204.md)
+[Практическое задание 4. Статическая маршрутизация (последовательность маршрутизаторов)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%204.md)
 
 [Терминология](#title0)
 
