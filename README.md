@@ -5,7 +5,7 @@
 
 [Практическое задание 2: DHCP, DNS, WEB server](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%202.md)
 
-[Практическое задание 3: Статическая маршрутизация](https://github.com/Vinnjy/cisco/main/Практическая_работа_3.md)
+[Практическое задание 3: Статическая маршрутизация](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%203.md)
 
 [Терминология](#title0)
 
