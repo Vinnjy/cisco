@@ -11,6 +11,8 @@
 
 [Практическое задание 5. Динамическая маршрутизация (RIP)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%205.md)
 
+[Практическое задание 6. Динамическая маршрутизация (сеть побольше)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%206.md)
+
 [Терминология](#title0)
 
 * [Конечные устройства](#title1)
