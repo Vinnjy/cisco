@@ -1,5 +1,5 @@
 # cisco
-## Практико-ориентированный курс
+## Практические задачки
 
 [Практическое задание 1. ICMP симуляция](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%201.md)
 
