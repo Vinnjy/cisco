@@ -9,6 +9,8 @@
 
 [Практическое задание 4. Статическая маршрутизация (последовательность маршрутизаторов)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%204.md)
 
+[Практическое задание 5. Динамическая маршрутизация (RIP)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%205.md)
+
 [Терминология](#title0)
 
 * [Конечные устройства](#title1)
