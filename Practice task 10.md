@@ -55,17 +55,36 @@
 
 <img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/3ba50861-8469-4f3e-a010-3a308a7cc5a2" />
 
-3. Настроим коммутатор, который будет vtp сервером, а также делаем все задействованные порты транковыми.
+3. Настроим коммутатор, который будет vtp сервером, а также делаем все задействованные порты транковыми. Но вначале создадим на нём VLAN.
+   * enable
+   * conf t
+   * vlan 10
+   * exit
+   * vlan 11
+   * exit
+   * vlan 12
+   * exit
+   * vlan 13
+   * exit
+   * vtp domain HOME = создаём домен.
+   * vtp password HOME = задаём пароль для домена.
+   * vtp mode server = делаем коммутатор vtp сервером.
+   * exit 2 раза
+   * sh vtp st = посмотрим информацию о vtp на коммутаторе.
 
-<img width="624" height="424" alt="image" src="https://github.com/user-attachments/assets/f7859c5e-41b4-499c-962a-4271d17e173e" />
+<img width="514" height="159" alt="image" src="https://github.com/user-attachments/assets/8ef07500-97f6-4131-8b1f-882b7b93b536" />
 
-<img width="624" height="464" alt="image" src="https://github.com/user-attachments/assets/4ad4adf6-d5a0-4e3c-9505-e2b571be9140" />
+   * делаем порты транковыми (как в предыдущих заданиях)
 
-<img width="624" height="493" alt="image" src="https://github.com/user-attachments/assets/b6af4db2-9b3d-448f-9b33-5d88522c3516" />
-
-4. Теперь настроим vtp клиентов (демонстрация только 1 коммутатора, остальные оп аналогии со своим vlan)
-
-<img width="624" height="439" alt="image" src="https://github.com/user-attachments/assets/28d50761-3c80-43d1-b0f5-939ccf6a42ea" />
+4. Теперь настроим vtp клиентов (демонстрация только 1 коммутатора, остальные оп аналогии со своим vlan).
+   * enable
+   * conf t
+   * vtp domain HOME
+   * vtp password HOME
+   * vtp mode client = делаем коммутатор vtp клиентом.
+   * exit 2 раза
+   * sh vtp st = посмотрим информацию о vtp на коммутаторе.
+   * sh vl br
 
 <img width="624" height="490" alt="image" src="https://github.com/user-attachments/assets/8057c79c-a3b3-4979-b99e-7579e7555bfc" />
 
@@ -75,13 +94,26 @@
 
 > Видно, что для пк доступно устройство только из под своей vlan.
 
-6. Настроим маршрутизацию на сервере. Тоже самое, что на маршрутизаторе, но вместо привычных сетевых интерфейсов, используются интерфейсы vlan. Прописывем для него IP-адрес.
+6. Настроим маршрутизацию на сервере. Тоже самое, что и на маршрутизаторе, но вместо привычных сетевых интерфейсов, используются интерфейсы vlan. Прописывем для него IP-адрес.
 
-> После настройки интерфейсов, обязательно включите маршруизацию (смотрите скриншот).
+> После настройки интерфейсов, обязательно включите маршрутизацию (смотрите скриншот).
 
-<img width="658" height="308" alt="image" src="https://github.com/user-attachments/assets/c56347e1-47de-4264-809f-b6ecd5be8902" />
+   * int vlan 10
+   * ip address 10.10.0.1 255.255.0.0
+   * exit
+   * int vlan 11
+   * ip address 10.11.0.1 255.255.0.0
+   * exit
+   * int vlan 12
+   * ip address 10.12.0.1 255.255.0.0
+   * exit
+   * int vlan 13
+   * ip address 10.13.0.1 255.255.0.0
+   * exit
+   * ip routing = включаем маршрутизацию
+   * exit
 
-<img width="656" height="325" alt="image" src="https://github.com/user-attachments/assets/583058ab-157d-48c2-b047-e37121aab762" />
+7. Пропингуем пк.
 
 <img width="639" height="981" alt="image" src="https://github.com/user-attachments/assets/142738e2-9354-43a0-a277-6ca753432ffd" />
 
@@ -89,9 +121,27 @@
 
 > Теперь все устройства доступны друг другу.
 
-7. Применим списки доступа на коммуаторе-сервере, чтобы для каждого vlan были доступны только свои устройства и сервер.
-
-<img width="598" height="564" alt="image" src="https://github.com/user-attachments/assets/cfe00203-e3f1-4af5-b5b3-93714c335653" />
+7. Применим списки доступа на коммутаторе-сервере, чтобы для каждого vlan были доступны только свои устройства и сервер.
+   * в режиме конфигурации.
+   * ip access-list extended 100 = создаём ACL расширенный с номером 100; размещать принято ближе к источнику (в данном контексте приемлимо). При совпадении правила из списка (сверху начинается проверка), проверка заканчивается.
+   * permit ip any 10.10.0.0 0.0.0.255 = разрешить доступ всем к сети 10.10.0.0 /24.
+   * permit ip 10.10.0.0 0.0.0.255 any = разрешить доступ сети 10.10.0.0 /24 доступ ко всем.
+   * permit 10.11.0.0 0.0.0.255 10.11.0.0 0.0.0.255 = разрешить доступ из сети 10.11.0.0 /24 в эту же сеть.
+   * permit 10.12.0.0 0.0.0.255 10.12.0.0 0.0.0.255 = разрешить доступ из сети 10.12.0.0 /24 в эту же сеть.
+   * permit 10.13.0.0 0.0.0.255 10.13.0.0 0.0.0.255 = разрешить доступ из сети 10.13.0.0 /24 в эту же сеть.
+   * exit
+   * int vlan 10
+   * ip access-group 100 in = применим ACL на интерфейс vlan 10 на входящий трафик.
+   * exit
+   * int vlan 11
+   * ip access-group 100 in
+   * exit
+   * int vlan 12
+   * ip access-group 100 in
+   * exit
+   * int vlan 13
+   * ip access-group 100 in
+   * exit
 
 8. Проверим работоспобность сети.
 
