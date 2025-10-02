@@ -2,7 +2,7 @@
 
 ### Файл для скачивания
 
-[Прктическое задание 8: VLAN, 2 коммутатора](https://github.com/Vinnjy/cisco/blob/main/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%207.pkt)
+[Прктическое задание 8: VLAN, 2 коммутатора](https://github.com/Vinnjy/cisco/blob/main/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%208.pkt)
 
 ### Описание
 
@@ -15,6 +15,55 @@
 
 1. Создать схему сети.
 
-<img width="815" height="664" alt="image" src="https://github.com/user-attachments/assets/357af356-efdc-45d3-ad3c-0383bf8abcc0" />
+<img width="542" height="402" alt="image" src="https://github.com/user-attachments/assets/52392e81-0377-4651-bfa9-d970bc9f02e3" />
+
+2. ПК
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/4b900635-a901-40e8-a764-284219f21188" />
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/b82eab2b-4f42-41b4-a767-d650bb8dd179" />
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/503b6456-ae44-423e-9408-0fda52adc1c4" />
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/577e7217-8d68-4f32-bec5-3522e8035bfa" />
+
+3. Коммутатор 1, пропишите следующие команды (как в предыдущем задании) для сетевых интерфейсов, подключённых к пк.
+   * enable
+   * conf t
+   * vlan 20
+   * interface fastEthernet 0/1
+   * switchport mode access
+   * switchport access vlan 20
+   * exit
+   * vlan 30
+   * interface fastEthernet 0/2
+   * switchport mode access
+   * switchport access vlan 30
+
+4. Сделать тоже самое для коммутатора 2
+
+5. Теперь настроим транковые порты, зайдите в каждый коммутатор -> в разделе config выберете FastEthernet0/3 -> выберете транковый порт (скриншот)
+
+<img width="470" height="163" alt="image" src="https://github.com/user-attachments/assets/cb7cdd16-ba0c-4f20-a381-006b15ab768c" />
+
+6. Посмотрим на существующие VLAN и trunk порты.
+
+<img width="639" height="576" alt="image" src="https://github.com/user-attachments/assets/39fd419a-eecf-44d3-bda8-3c5a76e6a688" />
+
+<img width="639" height="571" alt="image" src="https://github.com/user-attachments/assets/7d851e4f-03c9-42be-8a80-d7d70d5d3157" />
+
+> 802.1Q — это сетевой стандарт IEEE. Определяет ***способ тегирования*** (добавления специальной информации) кадров Ethernet для создания виртуальных локальных сетей (VLAN). В одной из практических заданий, применим данный формат, чтобы передавать данные между разными VLAN.
+
+7. Пропингуем пк.
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/285ec28c-fcb6-4439-8cca-af0b3562b557" />
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/d9b2f5f9-67ed-44f8-932a-ee4fdbece3f5" />
+
+
+
+
+
+
 
 
