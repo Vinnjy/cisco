@@ -28,11 +28,26 @@
 
 <img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/00d342ea-be43-45b6-a609-4d7326f602af" />
 
-3. Для коммутатора 1 зададим на 4 порт vlan 20, а для коммутатора 2 на 4 порт зададим vlan 30.
+3. Настроим порт 4 на обоих коммутаторах.
 
-<img width="682" height="474" alt="image" src="https://github.com/user-attachments/assets/6117cff9-978d-4667-a010-033ef36543f7" />
+Коммутатор 1:
+    * enable
+    * conf t
+    * int fa0/4
+    * switchport access vlan 20
+    * exit 2 раза
+    * sh vl br
+> Порт 4 добавится к vlan 20 при команде sh vl br
 
-<img width="687" height="469" alt="image" src="https://github.com/user-attachments/assets/f8eded3a-550f-4b74-9c9a-61f815e57e6d" />
+Коммутатор 2:
+    * enable
+    * conf t
+    * int fa0/4
+    * switchport access vlan 30
+    * exit 2 раза
+    * sh vl br
+
+> Порт 4 добавится к vlan 30 при команде sh vl br
 
 4. Маршрутизатор.
 
