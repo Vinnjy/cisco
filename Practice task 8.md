@@ -15,5 +15,6 @@
 
 1. Создать схему сети.
 
-![Uploading image.png…]()
+<img width="815" height="664" alt="image" src="https://github.com/user-attachments/assets/357af356-efdc-45d3-ad3c-0383bf8abcc0" />
+
 
