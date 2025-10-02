@@ -1,19 +1,19 @@
 # cisco
 ## Практические задачки
 
-[Практическое задание 1. ICMP симуляция](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%201.md)
+[Практическое задание 1: ICMP симуляция](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%201.md)
 
-[Практическое задание 2. DHCP, DNS, WEB server](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%202.md)
+[Практическое задание 2: DHCP, DNS, WEB server](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%202.md)
 
-[Практическое задание 3. Статическая маршрутизация](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%203.md)
+[Практическое задание 3: Статическая маршрутизация](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%203.md)
 
-[Практическое задание 4. Статическая маршрутизация (последовательность маршрутизаторов)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%204.md)
+[Практическое задание 4: Статическая маршрутизация (последовательность маршрутизаторов)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%204.md)
 
-[Практическое задание 5. Динамическая маршрутизация (RIP)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%205.md)
+[Практическое задание 5: Динамическая маршрутизация (RIP)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%205.md)
 
-[Практическое задание 6. Динамическая маршрутизация (сеть побольше)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%206.md)
+[Практическое задание 6: Динамическая маршрутизация (сеть побольше)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%206.md)
 
-[Прктическое задание 7. VLAN](https://github.com/Vinnjy/cisco/edit/main/Practice%20task%207.md)
+[Прктическое задание 7: VLAN](https://github.com/Vinnjy/cisco/edit/main/Practice%20task%207.md)
 
 [Терминология](#title0)
 
