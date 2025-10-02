@@ -13,6 +13,8 @@
 
 [Практическое задание 6. Динамическая маршрутизация (сеть побольше)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%206.md)
 
+[Прктическое задание 7: VLAN](https://github.com/Vinnjy/cisco/blob/main/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%207.pkt)
+
 [Терминология](#title0)
 
 * [Конечные устройства](#title1)
