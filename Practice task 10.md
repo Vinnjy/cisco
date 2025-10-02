@@ -142,7 +142,7 @@
    * int vlan 13
    * ip access-group 100 in
    * exit
-
+> Применяется wildcard mask: если 0.0.0.255, то маска 255.255.255.0.
 8. Проверим работоспобность сети.
 
 <img width="639" height="939" alt="image" src="https://github.com/user-attachments/assets/613fbd14-6194-46bc-852c-c6c5ae0acfcb" />
