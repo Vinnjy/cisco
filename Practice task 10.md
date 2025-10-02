@@ -22,12 +22,16 @@
 + in – на входящий трафик
 + out – на исходящий трафик
 
+</br>
+
 ### Описание
 1. Схема сети.
 
 <img width="734" height="439" alt="image" src="https://github.com/user-attachments/assets/40d9f3f6-6def-4401-9a8b-ecb5170f23ad" />
 
 2. Для каждого vlan доступны только его узлы и сервер.
+
+</br>
 
 ### Реализация
 
