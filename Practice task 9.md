@@ -31,22 +31,21 @@
 3. Настроим порт 4 на обоих коммутаторах.
 
 Коммутатор 1:
-    * enable
-    * conf t
-    * int fa0/4
-    * switchport access vlan 20
-    * exit 2 раза
-    * sh vl br
+   * enable
+   * conf t
+   * int fa0/4
+   * switchport access vlan 20
+   * exit 2 раза
+   * sh vl br
 > Порт 4 добавится к vlan 20 при команде sh vl br
 
 Коммутатор 2:
-    * enable
-    * conf t
-    * int fa0/4
-    * switchport access vlan 30
-    * exit 2 раза
-    * sh vl br
-
+   * enable
+   * conf t
+   * int fa0/4
+   * switchport access vlan 30
+   * exit 2 раза
+   * sh vl br
 > Порт 4 добавится к vlan 30 при команде sh vl br
 
 4. Маршрутизатор.
