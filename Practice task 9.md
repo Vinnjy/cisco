@@ -1,0 +1,53 @@
+## Практическое задание 9: VLAN, 2 коммутатора и маршрутизатор
+
+### Файла для скачивания
+
+[Практическое задание 9: VLAN, 2 коммутатора и маршрутизатор]()
+
+### Описание
+* Возьмите файл предыдущего задания.
+1. Построить схему сети: 4 пк, 2 коммутатора.
+2. У каждого коммутатора 2 пк из разных VLAN.
+3. Соедините 2 коммутатора.
+4. Добавьте маарщрутизатор и соедините с коммутаторами.
+5. Создайте 2 VLAN.
+
+### Реализаация
+
+1. Создайте схему сети.
+
+<img width="484" height="419" alt="image" src="https://github.com/user-attachments/assets/48b37bea-426d-4d0f-8a9c-f29c0eb36521" />
+
+2. ПК со шлюзами для маршрутизатора.
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/fbd6a10d-de17-44b7-9860-f61d6472cdb9" />
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/0cb8682a-1583-490f-8bf4-db1879752642" />
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/4c64595b-62cb-46af-a4d4-dc574966eadc" />
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/00d342ea-be43-45b6-a609-4d7326f602af" />
+
+3. Для коммутатора 1 зададим на 4 порт vlan 20, а для коммутатора 2 на 4 порт зададим vlan 30.
+
+<img width="682" height="474" alt="image" src="https://github.com/user-attachments/assets/6117cff9-978d-4667-a010-033ef36543f7" />
+
+<img width="687" height="469" alt="image" src="https://github.com/user-attachments/assets/f8eded3a-550f-4b74-9c9a-61f815e57e6d" />
+
+4. Маршрутизатор.
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/f273f2f8-f11c-4f2e-b2eb-f8d84c7b09ba" />
+
+<img width="639" height="569" alt="image" src="https://github.com/user-attachments/assets/91ff1570-64dd-47a0-941d-026dfc682eed" />
+
+7. Проверим работоспобность сети. Каждый пк должен быть доступен в сети.
+
+<img width="639" height="770" alt="image" src="https://github.com/user-attachments/assets/5491fded-7979-4048-ac77-3c2617b1f12f" />
+
+
+
+
+
+
+
+
