@@ -23,7 +23,9 @@
 
 ### [11. ACL](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%2011.md)
 
-[Терминология](#title0)
+<br>
+
+## [Терминология](#title0)
 
 * [Конечные устройства](#title1)
 
