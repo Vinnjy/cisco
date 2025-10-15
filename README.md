@@ -1,27 +1,27 @@
 # cisco
 ## Практические задания
 
-[ICMP симуляция](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%201.md)
+### [1. ICMP симуляция](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%201.md)
 
-[DHCP, DNS, WEB server](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%202.md)
+### [2. DHCP, DNS, WEB server](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%202.md)
 
-[Статическая маршрутизация](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%203.md)
+### [3. Статическая маршрутизация](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%203.md)
 
-[Статическая маршрутизация (последовательность маршрутизаторов)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%204.md)
+### [4. Статическая маршрутизация (последовательность маршрутизаторов)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%204.md)
 
-[Динамическая маршрутизация (RIP)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%205.md)
+### [5. Динамическая маршрутизация (RIP)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%205.md)
 
-[Динамическая маршрутизация (сеть побольше)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%206.md)
+### [6. Динамическая маршрутизация (сеть побольше)](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%206.md)
 
-[VLAN - 1 коммутатор](https://github.com/Vinnjy/cisco/edit/main/Practice%20task%207.md)
+### [7. VLAN - 1 коммутатор](https://github.com/Vinnjy/cisco/edit/main/Practice%20task%207.md)
 
-[VLAN - 2 коммутатора](https://github.com/Vinnjy/cisco/edit/main/Practice%20task%208.md)
+### [8. VLAN - 2 коммутатора](https://github.com/Vinnjy/cisco/edit/main/Practice%20task%208.md)
 
-[VLAN - 2 коммутатора и маршрутизатор](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%209.md)
+### [9. VLAN - 2 коммутатора и маршрутизатор](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%209.md)
 
-[VTP](https://github.com/Vinnjy/cisco/edit/main/Practice%20task%2010.md)
+### [10. VTP](https://github.com/Vinnjy/cisco/edit/main/Practice%20task%2010.md)
 
-[ACL](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%2011.md)
+### [11. ACL](https://github.com/Vinnjy/cisco/blob/main/Practice%20task%2011.md)
 
 [Терминология](#title0)
 
